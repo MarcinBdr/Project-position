@@ -1,9 +1,13 @@
 body *{
     box-sizing: border-box;
 }
-body{
+main{
     width: 923px;
     margin: auto;
+}
+body {
+    background: linear-gradient(to bottom, black, rgb(68, 6, 68)),rgb(68, 6, 68);
+    background-repeat: no-repeat;
 }
 header{
     background-image: url("./images/logo_1.jpg");
@@ -11,6 +15,9 @@ header{
     width: 923px;
     height: 312px;
     border-radius: 15px;
+}
+header a:hover,#oaza:hover,#so:hover{
+    color: rgb(0, 89, 255);
 }
 #oaza, #so{
     position: absolute;
@@ -52,4 +59,23 @@ header ul{
     margin-left: 15%;
     margin-right: 15%;
     padding: 0px;
+}
+#left_nav,#right_nav{
+    width: 197px;
+    display: inline-block;
+}
+article{
+    width: 520px;
+    display: inline-block;
+    margin: auto;
+    margin-top: 0px;
+}
+#right_nav{
+    width: 197px;
+    float: right;
+}
+.naglowek{
+    background-image: url("./images/naglowek.gif");
+    background-repeat: no-repeat;
+    height: 49px;
 }
