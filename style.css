@@ -63,6 +63,7 @@ header ul{
 #left_nav,#right_nav{
     width: 197px;
     display: inline-block;
+    height: 610px;
 }
 article{
     width: 520px;
@@ -74,8 +75,124 @@ article{
     width: 197px;
     float: right;
 }
+#l_top{
+    height: 370px;
+}
+#l_bottom{
+    height: 230px;
+}
 .naglowek{
     background-image: url("./images/naglowek.gif");
     background-repeat: no-repeat;
+    border-radius: 5px;
     height: 49px;
+}
+.naglowek p{
+    text-align: center;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    line-height: 49px;
+}
+.li_nag a{
+    font-size: small;
+    color:white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.li_nag a:hover{
+    color:rgb(139, 216, 23);
+}
+.li_nag:hover{
+    transform: scale(1.07,1.07);
+}
+.li_nag{
+    padding-bottom: 10px;
+    border-bottom: 3px solid transparent;
+    border-image: url("./images/podkreslenie.gif");
+    border-image-slice: 1;
+    text-decoration: none;
+    width:180px;
+    padding-top: 10px;
+    list-style-type: none;
+    position: relative;
+}
+#l_bottom ul,#l_top ul{
+    padding-left: 11px;
+}
+.li_nag img{
+    position: absolute;
+    top: 17px;
+    left: 0px;
+}
+.li_nag div{
+    padding-left: 20px;
+}
+#r_top .naglowek{
+    margin-bottom: 50px;
+}
+#text{
+    font-size: 12px;
+    color:white;
+    padding-bottom: 40px;
+    border-bottom: 3px solid transparent;
+    border-image: url("./images/podkreslenie.gif");
+    border-image-slice: 1;
+    width:197px;
+    padding:8.5px;
+    padding-bottom:25px ;
+
+}
+tr th{
+    text-align: right;
+    font-family: Arial;
+    font-size: small;
+    padding-right: 5px;
+}
+tr td{
+    text-align: center;
+    width:20px;
+}
+table tr td,table tr th{
+    margin: 5px;
+    color:white;
+    height: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgb(6, 0, 14);
+
+}
+table{
+    border-collapse: collapse;
+    width: 197px;
+    margin: auto;
+    margin-top: 20px;
+}
+#calendar{
+    padding-bottom: 40px;
+    border-bottom: 3px solid transparent;
+    border-image: url("./images/podkreslenie.gif");
+    border-image-slice: 1;
+}
+#tr_1{
+    background-color: #FC6B00;
+}
+#tr_2{
+    font-family: Arial;
+    background-color:#570670 ;
+}
+#tr_3{
+    background-color: #680587;
+}
+#tr_4{
+    background-color: #8505AE;
+}
+#tr_5{
+    background-color: #970DC4;
+}
+#tr_6{
+    background-color: #AE22DC;
+}
+#tr_7{
+    background-color: #BB39E5;
 }
