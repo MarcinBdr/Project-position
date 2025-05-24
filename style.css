@@ -16,8 +16,9 @@ header{
     height: 312px;
     border-radius: 15px;
 }
-header a:hover,#oaza:hover,#so:hover{
+header li a:hover,#oaza:hover,#so:hover{
     color: rgb(0, 89, 255);
+    transform: scale(1.1,1.1);
 }
 #oaza, #so{
     position: absolute;
@@ -41,6 +42,10 @@ header li{
     padding: 10px;
     text-decoration: none;
     border-left: 1px solid rgb(139, 216, 23);
+}
+header ul b li a{
+    display: inline-block;
+    text-decoration: none;
 }
 header li a{
     color: rgb(139, 216, 23);
@@ -156,6 +161,10 @@ table tr td,table tr th{
     border-bottom: 1px solid rgb(6, 0, 14);
 
 }
+table tr td:hover{
+    transform: scale(1.2,1.2);
+    cursor: context-menu;
+}
 table{
     border-collapse: collapse;
     width: 197px;
@@ -246,19 +255,19 @@ legend{
     font-family: Arial;
     font-size: small;
 }
-#email,#fname,#lname,textarea{
+#email,#fname,#lname,textarea,#temat{
     padding-left: 10px;
     border-radius: 5px;
     border-color: transparent;
     margin-bottom: 5px;
 }
-#email,#fname,#lname{
+#email,#fname,#lname,#temat{
     width:221px;
     height: 30px;
 }
 textarea{
     width: 447px;
-    height: 135px;
+    height: 105px;
     resize: none;
 }
 #button{
@@ -273,4 +282,19 @@ textarea{
 #button:hover{
     transform: scale(1.07,1.07);
     border-radius: 7%;
+}
+#favicon{
+    border-radius: 10%;
+}
+footer{
+    width: 923px;
+    height: 50px;
+    background-color: #570670;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+footer p{
+    text-align: center;
+    padding: 15px;
+    color: white;
 }
