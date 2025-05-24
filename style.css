@@ -270,3 +270,10 @@ textarea{
     width: 77px;
     height: 27px;
 }
+#button:hover{
+    transform: scale(1.07,1.07);
+    border-radius: 7%;
+}
+#favicon{
+    border-radius: 10%;
+}
