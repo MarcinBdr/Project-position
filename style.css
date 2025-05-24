@@ -1,4 +1,4 @@
-@media (max-width:1000px){
+@media only screen and (max-width: 600px){
 body *{
     box-sizing: border-box;
 }
@@ -292,7 +292,7 @@ footer{
     height: 50px;
     background-color: #570670;
     border-radius: 25px;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 footer p{
     text-align: center;
