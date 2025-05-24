@@ -65,12 +65,6 @@ header ul{
     display: inline-block;
     height: 610px;
 }
-article{
-    width: 520px;
-    display: inline-block;
-    margin: auto;
-    margin-top: 0px;
-}
 #right_nav{
     width: 197px;
     float: right;
@@ -195,4 +189,84 @@ table{
 }
 #tr_7{
     background-color: #BB39E5;
+}
+#Bottom{
+    height: 610px;
+    position: relative;
+}
+aside{
+    width: 529px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+article{
+    display: inline-block;
+    margin: auto;
+    margin-top: 0px;
+    height: 610px;
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+    width: 529px;
+    color:white;
+}
+#a_top h1{
+    font-size: 33px;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    font-family: Arial;
+}
+h2{
+    font-family: Arial;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+#a_top,#a_center{
+    font-size: 12px;
+    margin-top:5px;
+    border-bottom: 3px solid transparent;
+    border-image: url("./images/podkreslenie.gif");
+    border-image-slice: 1;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+#a_input{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#a_input h2{
+    padding-top: 5px;
+}
+fieldset{
+    height: 270px;
+}
+legend{
+    margin-left:-15px;
+    font-family: Arial;
+    font-size: small;
+}
+#email,#fname,#lname,textarea{
+    padding-left: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+    margin-bottom: 5px;
+}
+#email,#fname,#lname{
+    width:221px;
+    height: 30px;
+}
+textarea{
+    width: 447px;
+    height: 135px;
+    resize: none;
+}
+#button{
+    background-image: url("./images/przycisk.gif");
+    background-repeat: no-repeat;
+    border:0px solid transparent;
+    color: white;
+    float: right;
+    width: 77px;
+    height: 27px;
 }
